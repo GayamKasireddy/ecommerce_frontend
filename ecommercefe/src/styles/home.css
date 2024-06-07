@@ -1,0 +1,78 @@
+/* *{
+    background-color: aqua;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+.data{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+/*----------------------------------------------User------------------------------*/
+.user form{
+    display: grid;
+   grid-template-columns: 200px 200px;
+   box-shadow: 0px 0px 10px black;
+   padding: 20px 40px;
+}
+.user{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user input,label{
+    font-family: cursive;
+    border:none;
+    margin: 10px;
+}
+
+.user input{
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+.user form:hover{
+transform: scale(1.1);
+transition: .5s;
+}
+
+
+/*------------------------------user login---------------------------------------------------*/
+.userlogin form{
+    display: flexbox;
+   grid-template-columns: 200px 200px;
+   box-shadow: 0px 0px 10px black;
+   padding: 20px 40px;
+}
+.userlogin{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.userlogin input,label{
+    font-family: cursive;
+    border:none;
+    margin: 10px;
+}
+
+.userlogin input{
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+.userlogin form:hover{
+transform: scale(1.1);
+transition: .5s;
+}
+
+.userlogin .buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
